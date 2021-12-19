@@ -59,6 +59,7 @@ h3 {
  font-weight: 700;
  color: var(--darkColor);
  margin-bottom: 2rem;
+ letter-spacing: 0.1rem;
 }
 
 .h3-color {
@@ -129,6 +130,7 @@ a {
  box-shadow: 0 5px 15px 0 rgb(0, 0, 0/15%);
  transition: all 0.3s ease-in-out;
  margin-top: 2rem;
+ margin-right: 2rem;
 }
 
 .btn-style-dark:hover {
@@ -246,7 +248,7 @@ a {
 }
 
 .skill {
- width: 40%;
+ width: 35%;
  text-align: left;
 }
 
@@ -273,6 +275,31 @@ a {
  background-color: var(--offWhite);
 }
 
+.project-container {
+ padding-top: 15rem;
+}
+
+.project-common {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 10rem;
+}
+
+/* img */
+.project-img {
+ width: 55%;
+}
+
+.project-img img {
+ width: 100%;
+}
+
+/* text */
+.project-text {
+ width: 40%;
+ text-align: left;
+}
 /*******Media Queries For Mobile**********/
 @media only screen and (min-width: 280px) and (max-width: 768px) {
  /* common class */

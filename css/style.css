@@ -148,7 +148,7 @@ a {
  /* common class */
  /*******Header**********/
  .navbar {
-  padding: 3.5% 3%;
+  padding: 4% 3%;
  }
 
  .nav-menu {
@@ -161,7 +161,7 @@ a {
  }
 
  .nav-menu.active {
-  top: 8%;
+  top: 7%;
  }
 
  .nav-list {

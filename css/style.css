@@ -402,6 +402,58 @@ textarea:focus {
  line-height: 2.5rem;
 }
 
+/*********Footer**********/
+.foot {
+ width: 100%;
+ background-color: var(--darkColor);
+}
+
+/* foot container */
+.foot-deatil {
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+}
+
+/* common */
+.common-deatils {
+ width: 30%;
+}
+
+.common-deatils h3 {
+ color: var(--whiteColor);
+}
+
+.common-deatils p {
+ font-size: 1.6rem;
+ line-height: 2rem;
+}
+
+/* right */
+.right {
+ text-align: right;
+}
+
+.social-icon {
+ font-size: 1.8rem;
+ color: var(--whiteColor);
+ margin-left: 2rem;
+}
+
+/* copyright */
+.foot-hr {
+ margin: 5rem 0;
+}
+
+.copyright p {
+ text-align: center;
+ font-size: 1.8rem;
+}
+
+.copyright a {
+ color: var(--whiteColor);
+ text-decoration: underline;
+}
 /*******Media Queries For Mobile**********/
 @media only screen and (min-width: 280px) and (max-width: 768px) {
  /* common class */

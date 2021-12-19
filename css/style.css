@@ -90,7 +90,7 @@ p {
 }
 
 button,
-input,
+label,
 a {
  font-family: "Source Sans Pro", sans-serif;
  text-decoration: none;
@@ -300,6 +300,108 @@ a {
  width: 40%;
  text-align: left;
 }
+
+/*********Section 3 Contact**********/
+.contact {
+ width: 100%;
+ background-image: var(--gradientColor);
+ text-align: center;
+}
+
+.contact h2 {
+ color: var(--whiteColor);
+}
+
+.contact .p-top {
+ color: var(--offWhite);
+}
+
+/* form and info container */
+.contact-container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 10rem;
+ text-align: left;
+}
+
+/* common container */
+.contact-common {
+ width: 45%;
+ padding: 3rem 5rem;
+ border-radius: 5px;
+}
+
+/* form */
+.contact-form {
+ background-color: var(--whiteColor);
+}
+
+.form-group {
+ margin-bottom: 5rem;
+}
+
+label {
+ display: block;
+ font-size: 1.8rem;
+ margin-bottom: 0.5rem;
+ color: var(--darkColor);
+}
+
+input,
+textarea {
+ width: 100%;
+ border: none;
+ outline: none;
+ border-bottom: 1.5px solid var(--lightGray);
+ padding: 1rem 0;
+ resize: none;
+}
+
+input:focus,
+textarea:focus {
+ border-bottom: 2px solid #34e89e;
+}
+
+/* form btn */
+.contact-form .btn-style-dark {
+ width: 100%;
+ cursor: pointer;
+ margin-top: 0;
+ border: 0;
+ padding: 1rem;
+ font-weight: 600;
+}
+
+/* placeholder */
+::placeholder {
+ font-family: "Source Sans Pro", sans-serif;
+ font-size: 1.4rem;
+ letter-spacing: 0.1rem;
+}
+
+/* info */
+.contact-info {
+ background-color: var(--whiteColor);
+}
+
+.deatil-common {
+ margin: 5rem 0;
+}
+
+.contact-info h3 {
+ color: #34e89e;
+ font-weight: 700;
+ font-size: 2.2rem;
+ margin-bottom: 0.5rem;
+ text-transform: uppercase;
+}
+.contact-info p {
+ color: var(--lightGray);
+ font-size: 2rem;
+ line-height: 2.5rem;
+}
+
 /*******Media Queries For Mobile**********/
 @media only screen and (min-width: 280px) and (max-width: 768px) {
  /* common class */

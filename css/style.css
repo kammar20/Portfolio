@@ -154,7 +154,6 @@ a {
 /*********Header**********/
 .head {
  width: 100%;
- /* height: 100vh; */
  background-image: var(--gradientColor);
 }
 /* navbar */
@@ -454,10 +453,60 @@ textarea:focus {
  color: var(--whiteColor);
  text-decoration: underline;
 }
+
 /*******Media Queries For Mobile**********/
 @media only screen and (min-width: 280px) and (max-width: 768px) {
- /* common class */
- /*******Header**********/
+ /*******Common class (M)**********/
+
+ h1 {
+  font-size: 3.8rem;
+ }
+
+ .h2-light {
+  font-size: 2.5rem;
+ }
+
+ h2 {
+  font-size: 2.4rem;
+ }
+
+ h3 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+ }
+
+ .h3-color {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+ }
+
+ .p-top {
+  font-size: 1.6rem;
+ }
+
+ .para {
+  font-size: 1.6rem;
+ }
+
+ /* light btn */
+ .btn-style-light {
+  font-size: 1.4rem;
+  padding: 1.2rem 2.6rem;
+  margin: 1rem 2rem 2rem;
+ }
+
+ /* dark btn */
+ .btn-style-dark {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 1rem 2.4rem;
+ }
+
+ .hr-color {
+  width: 8%;
+ }
+
+ /*******Header (M)**********/
 
  .navbar {
   padding: 2rem;
@@ -502,5 +551,116 @@ textarea:focus {
  }
  .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(45deg);
+ }
+
+ /* tagline */
+ .tagline {
+  padding: 20rem 0;
+ }
+ /*******Section 1 About (M)**********/
+ .info {
+  flex-flow: column nowrap;
+ }
+
+ .know-me,
+ .skill {
+  width: 100%;
+ }
+
+ .know-me .btn-style-dark {
+  margin-bottom: 5rem;
+ }
+
+ /*******Section 2 Project (M)**********/
+ .project-container {
+  padding-top: 5rem;
+ }
+
+ .project-common {
+  flex-flow: column nowrap;
+ }
+
+ .project-img,
+ .project-text {
+  width: 100%;
+ }
+
+ .project-img img {
+  margin-bottom: 2rem;
+ }
+
+ /*******Section 3 Contact (M)**********/
+ .contact-container {
+  flex-flow: column nowrap;
+  margin-top: 5rem;
+ }
+
+ .contact-common {
+  width: 100%;
+  padding: 3rem 2rem;
+  margin-bottom: 3rem;
+ }
+
+ /* form */
+ label {
+  font-size: 1.4rem;
+ }
+
+ .contact-form .btn-style-dark {
+  font-weight: 500;
+ }
+
+ ::placeholder {
+  font-size: 1.2rem;
+ }
+
+ /* info */
+
+ .contact-info h3 {
+  font-weight: 600;
+  font-size: 2rem;
+ }
+
+ .contact-info p {
+  font-size: 1.6rem;
+ }
+
+ /*******Footer (M)**********/
+
+ /* foot container */
+ .foot-deatil {
+  flex-flow: column nowrap;
+ }
+
+ /* common */
+ .common-deatils {
+  width: 100%;
+ }
+
+ .common-deatils h3 {
+  font-size: 2.4rem;
+ }
+
+ .common-deatils p {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+ }
+
+ /* right */
+ .right {
+  text-align: left;
+ }
+
+ .social-icon {
+  font-size: 1.6rem;
+  margin-right: 2rem;
+  margin-left: 0;
+ }
+
+ /* copyright */
+
+ .copyright p {
+  font-size: 1.4rem;
+  line-height: 2rem;
  }
 }

@@ -364,6 +364,7 @@ textarea:focus {
 
 /* form btn */
 .contact-form .btn-style-dark {
+ display: block;
  width: 100%;
  cursor: pointer;
  margin-top: 0;

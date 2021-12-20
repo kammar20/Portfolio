@@ -166,6 +166,7 @@ a {
  justify-content: space-between;
  align-items: center;
  box-shadow: 0 10px 100px rgb(0 0 0 / 20%);
+ z-index: 1;
 }
 
 /* logo */
